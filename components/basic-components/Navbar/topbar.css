@@ -1,0 +1,70 @@
+.topbar_text{
+    font-size: 13px;
+}
+.topbar_item{
+    font-weight: bold; 
+    margin-right: .3rem;
+    position: relative;
+    color: #878787;
+}
+.topbar_icon{
+    font-size: 9px;
+    color:#878787;
+    margin-left: .3rem;
+}
+.all_electronics_cont{
+  display: flex;
+  background-color: #fff;
+  position: absolute;
+  z-index: 9;
+  top: 16%;
+  right: 4%;
+  min-width: 1000px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.electronic_row{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 1rem;
+    z-index: 99;
+}
+.electronic_row2{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 1rem;
+    z-index: 99;
+}
+.elc_head{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: .5rem;
+}
+.head_icon{
+    font-size: 12px;
+    margin-top: 3px;
+    color: #878787;
+    margin-left: 0.5rem;
+    margin-bottom: 0px;
+    padding: 0;
+}
+.elc_item{
+    font-size: 11px;
+    margin-top: .5rem;
+    color: #878787 !important;
+    font-weight: 500;
+}
+.top_bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 23%) !important;
+    margin-bottom: 1px;
+    background-color: #ffff;
+}
